@@ -1,0 +1,265 @@
+body{
+    overflow-x: hidden;
+}
+
+.topheader{
+    background:url("../images/bg_body.jpg");  
+    background-position: center;
+    background-size: 60% 200%;
+    background-repeat: no-repeat;    
+}
+
+.homes{
+    background-image: url("../images/ico_home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.bar1{
+    height: 50px;
+    background-image: url("../images/rollover-bg.png");
+}
+
+.bar2{
+    background-image: url("../images/barslider.png");
+    background-repeat: repeat;
+    font-weight: bold;
+    line-height: 49px;
+    padding-top: 4px;
+}
+
+.inforfooter{
+    color: white;
+    background-color:#245d80;
+    padding: 10px;  
+}
+
+h2{
+    color:#245d80;
+}
+
+h3{
+    color: #96be37;
+}
+
+.ratehub table.rates {
+    border-collapse: collapse;
+    font-family: Tahoma,Helvetica,Verdana,sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 0 28px;
+    width: 100%;
+}
+.ratehub table.rates td {
+    padding: 8px 5px 10px 12px;
+}
+.ratehub table.rates .mark td {
+    background: none repeat scroll 0 0 #e5e5e5;
+}
+.ratehub table.rates th {
+    background: none repeat scroll 0 0 #246897;
+    border-radius: 7px 7px 0 0;
+    padding: 15px 10px;
+}
+.ratehub table.rates th h3 {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1px;
+    width: 300px;
+}
+.ratehub .lang-fr table.rates th h3 {
+    font-size: 16px;
+}
+.ratehub table.rates th #province {
+    float: right;
+    font-size: 11px;
+    width: 120px;
+}
+.ratehub table.rates td a.rate-type {
+    color: #666;
+}
+.ratehub table.rates .sub td {
+    background: none repeat scroll 0 0 #ccc;
+    border-radius: 0 0 7px 7px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 5px 21px 5px 18px;
+}
+.ratehub table.rates .sub dl {
+    float: left;
+    margin: 2px 0 0;
+}
+.ratehub table.rates .sub dt {
+    float: left;
+    margin: 0 3px 0 0;
+}
+.ratehub table.rates strong {
+    font-size: 20px;
+    line-height: 22px;
+}
+.ratehub table.rates .sub dd {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+}
+.ratehub table.rates .more {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAARCAAAAAAuigkHAAAAfElEQVQIHQXBQQGCABAAwb0/BQigATj+BtAEBvAvBShAAv8UMAAEuD0zOcP7tFW1ycuubZfFFMNmta0kxFPLKmaA+VCbBIJx1yYBCFYlgYDgLgkQQCwkADCsTQLAuLckALfDKhLgZWuTMGxaKhPXr7ZVMj/OUm3lo6o/rT8ATU/6i70apwAAAABJRU5ErkJggg==") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+    color: #000;
+    float: right;
+    font-weight: bold;
+    padding: 1px 20px 3px 0;
+}
+
+.news{
+    list-style: none;
+}
+
+time{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.widgetfooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#F0F0F0 ;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid 2px #C0C0C0;
+}
+
+.txtsingle{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    padding: 11px 9px 7px;
+    width: 305px;
+}
+
+.imgslide{
+    height:300px;
+}
+
+.pagebox{
+    -webkit-box-shadow: -1px 7px 18px 0px rgba(37, 50, 50, 0.24);
+    -moz-box-shadow:    -1px 7px 18px 0px rgba(37, 50, 50, 0.24);
+    box-shadow:         -1px 7px 18px 0px rgba(37, 50, 50, 0.24);
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.hrgreen{
+     border-bottom: 1px solid #d3fb77;
+    border-top: 1px solid #a3cb47;
+    margin-top: 0.25em;   
+}
+
+
+#sidebar-menu {
+    border-radius: 5px 0 0 5px;
+    padding: 15px 20px 10px;
+}
+#sidebar-menu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar-menu ul.root > li > a,#sidebar-menu ul.root > li > span {
+    border-bottom: 1px solid #ddd;
+    color: #4597ca;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 0 5px -20px;
+    padding: 5px 0 5px 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+  #sidebar-menu ul ul li {
+    margin: 0;
+    position: relative;
+}
+  #sidebar-menu ul ul li:last-child {
+    margin-bottom: 20px;
+}
+  #sidebar-menu ul ul li:hover,   #sidebar-menu ul ul li.selected:hover {
+    background: none repeat scroll 0 0 #ddd;
+    border-radius: 0 10px 10px 0;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+  #sidebar-menu ul ul li:hover > a {
+    color: #000;
+    text-decoration: none;
+}
+  #sidebar-menu ul ul li.selected {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border-radius: 0 10px 10px 0;
+    margin-left: -20px;
+    padding-left: 20px;
+    position: relative;
+}
+  #sidebar-menu ul ul li.selected:before,   #sidebar-menu ul ul li:hover:before {
+    background: none repeat scroll 0 0 #97bd40;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 7px;
+}
+  #sidebar-menu ul ul li.selected:after,   #sidebar-menu ul ul li:hover:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #97bd40;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 7px;
+    margin-top: -5px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+}
+#sidebar-menu ul ul li.selected a {
+    color: #000;
+    text-decoration: none;
+}
+#sidebar-menu ul ul li a {
+    color: #777;
+    display: block;
+    padding: 7px 0;
+}
+  #sidebar-menu .big-box-1,   #sidebar-menu .big-box-2 {
+    margin: -7px 0 5px -10px;
+}
+  #sidebar-menu .big-box-1 {
+    margin-bottom: 15px;
+}
+  #sidebar-menu .big-box-2 {
+    margin-top: 25px;
+}
+
+.widgetfooter ul{
+    list-style: none;
+    padding: 0px;
+}
+ 
